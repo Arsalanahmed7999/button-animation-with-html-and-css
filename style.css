@@ -1,0 +1,94 @@
+/* * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    width: 100vw;
+    background-color: black;
+    flex-direction: column;
+}
+
+button {
+    height: 80px;
+    font-size: 2em;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-family: cursive;
+    width: 200px;
+    outline: none;
+    text-decoration: none;
+    background: linear-gradient(to right, rgb(0, 255, 238), rgb(255, 0, 255));
+    overflow: hidden;
+    border-radius: 10px;
+    animation: animate 2s linear infinite;
+    cursor: pointer;
+    background-repeat: repeat-x;
+}
+
+button:hover {
+    border: none;
+    box-shadow: 0 0 10px aqua, 0 0 20px aqua, 0 0 50px rgb(234, 0, 255);
+}
+
+@keyframes animate {
+    0% {
+        background-position: 0 0;
+    }
+
+    100% {
+        background-position: 200px 0;
+    }
+} */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    width: 100vw;
+    background-color: #000;
+}
+
+button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+    height: 80px;
+    width: 200px;
+    border-radius: 10px;
+    letter-spacing: 2px;
+    overflow: hidden;
+    font-family: cursive;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: linear-gradient(to right, aqua, rgb(255, 0, 255));
+    font-weight: bold;
+    animation: animate 2s linear infinite;
+}
+
+@keyframes animate {
+    0%{
+        background-position: 0 0;
+    }
+    100%{
+        background-position: 200px 0;
+    }
+}
+
+button:hover{
+    box-shadow: 0 0 10px aqua, 0 0 20px aqua, 0 0 50px rgb(255, 0, 255);
+}
